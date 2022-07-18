@@ -1,0 +1,33 @@
+/**/
+:root{
+    --body-bg: #7fc8ba;
+    --h-font-color: #fff;
+    --font-color: #222;
+    --font-family: sans-serif;
+
+}
+
+body{
+    background-color: var(--body-bg);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-family);
+    color: var(--h-font-color);
+    font-size: 3rem;
+}
+
+#entry-form{
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-size: 1.75rem;
+
+}
+
+#submit:hover{
+    transform: scale(1.05);
+}
+
+#answer-box{
+    
+}
