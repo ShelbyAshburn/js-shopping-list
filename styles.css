@@ -1,6 +1,6 @@
 /**/
 :root{
-    --body-bg: #7fc8ba;
+    --body-bg: #4034eb;
     --h-font-color: #fff;
     --font-color: #222;
     --font-family: sans-serif;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #fff;
     display: block;
     position:absolute;
-    border: 2px solid rgb(96, 174, 247);
+    border: 2px solid rgb(0, 0, 0);
     margin-left:500px;
     padding: 30px;
     width: 500px;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6{
     display: block;
     position: relative;
     top:150px;
-    border: 2px solid rgb(96, 174, 247);
+    border: 2px solid rgb(0, 0, 0);
     margin-left: 500px;
     padding: 20px;
     width: 500px;
