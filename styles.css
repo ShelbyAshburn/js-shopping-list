@@ -32,22 +32,27 @@ h1, h2, h3, h4, h5, h6{
 
 .container{
     background-color: #fff;
-    display: block;
-    position:absolute;
+    display: flex;
+    justify-content: center;
     border: 2px solid rgb(0, 0, 0);
-    margin-left:500px;
+    margin: 0 auto;
     padding: 30px;
     width: 500px;
     height: 150px;
 }
 #shopping-list{
     background-color: #fff;
-    display: block;
-    position: relative;
+    display: flex;
+    justify-content: center;
     top:150px;
     border: 2px solid rgb(0, 0, 0);
-    margin-left: 500px;
+    margin: 0 auto;
     padding: 20px;
     width: 500px;
     height: 500px;
+    
+}
+
+#the-list{
+    list-style-type: none;
 }
