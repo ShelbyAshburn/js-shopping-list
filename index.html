@@ -10,38 +10,16 @@
     <meta name="author" content="Shelby Ashburn">
     <title>Shopping List</title>
 </head>
-<body>
-    <h1 class="heading">ONLINE SHOPPING LIST</h1>
-   
-        <div class="container"> 
-            <div id="entry-form">
-                <form action="scripts.js">
-                    <label for="add-item">Add item:</label>
-                    <input type="text" id="add-item" name="add-item" placeholder="Enter item here"><input id="submit" type="submit" value="Add to list">   
-                </form>
-            </div>   
-        </div>
-        <br></br> 
-        <div id="shopping-list"> 
-            <div>
-                <ul id="the-list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>   
-        </div>     
-               
-
-        
-           
-    
-    
-    
+<body> 
+    <div id="app">
+        <h1>To-Do List</h1>
+        <input type="text" id="taskInput" placeholder="Enter task...">
+        <button id="addTaskBtn">Add Task</button>
+        <ul id="taskList">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+    </div>
+    <script src="script.js"></script>                
 </body>
 <footer>
 
